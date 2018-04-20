@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppQRCode</string>
+    <string name="titulo_atividade">Materiais para a aula</string>
+    <string name="material_nao_encontrado">QRCode não cadastrado como material</string>
+</resources>
