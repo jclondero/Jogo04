@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/imgVidraria"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_gravity="center"/>
 
     <TextView
@@ -19,13 +19,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"/>
 
-    <TextView
+    <me.biubiubiu.justifytext.library.JustifyTextView
         android:id="@+id/txtVidraria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"/>
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="6dp"
+        android:textSize="16sp"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
