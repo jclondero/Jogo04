@@ -6,7 +6,11 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
+import android.webkit.WebView;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.Toast;
 
@@ -16,7 +20,7 @@ import com.journeyapps.barcodescanner.ViewfinderView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button scan_btn;
+    private ImageButton scan_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
 
-        scan_btn = (Button) findViewById(R.id.scan_btn);
+        scan_btn = (ImageButton) findViewById(R.id.scan_btn);
+
         final Activity activity = this;
 
         scan_btn.setOnClickListener(new View.OnClickListener() {
@@ -74,5 +79,4 @@ public class MainActivity extends AppCompatActivity {
             super.onActivityResult(requestCode, resultCode, data);
         }
     }
-
 }

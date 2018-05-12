@@ -2,4 +2,5 @@
     <string name="app_name">AppQRCode</string>
     <string name="titulo_atividade">Materiais para a aula</string>
     <string name="material_nao_encontrado">QRCode não cadastrado como material</string>
+    <string name="descricao_app">Utilize o leitor de QRcode para descobrir as vidrarias! Clique no botão abaixo para iniciar!</string>
 </resources>
