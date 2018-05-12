@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
 
                     parametros.putString("hash",dado.getCodHash());
                     parametros.putString("name",dado.getNameVidraria());
-                    parametros.putString("desc",dado.getDescVidraria());
 
                     intent.putExtras(parametros);
                     startActivity(intent);

@@ -30,9 +30,6 @@ public class ActivityVidraria extends AppCompatActivity {
 
         TextView titleVidraria = (TextView) findViewById(R.id.titleVidraria);
         titleVidraria.setText(parametros.getString("name"));
-
-        TextView descVidraria = (TextView) findViewById(R.id.txtVidraria);
-        descVidraria.setText(parametros.getString("desc"));
     }
 
     public void voltarMain(View v){
