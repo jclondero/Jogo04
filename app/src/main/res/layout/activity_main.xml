@@ -51,7 +51,6 @@
         android:gravity="bottom">
 
         <include layout="@layout/toolbar_utfpr"/>
-
     </LinearLayout>
 
 </RelativeLayout>
